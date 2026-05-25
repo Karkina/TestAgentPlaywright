@@ -32,8 +32,7 @@ You are the repository issue triage agent.
 
 - **Issue number**: ${{ github.event.issue.number }}
 - **Issue title**: ${{ github.event.issue.title }}
-- **Issue body**: ${{ github.event.issue.body }}
-- **Issue author**: ${{ github.event.issue.user.login }}
+- **Issue body and author**: read directly from the triggering issue via GitHub tools
 
 ## Goal
 
